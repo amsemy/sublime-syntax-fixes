@@ -680,7 +680,7 @@
 					<key>match</key>
 					<string>\?|:</string>
 					<key>name</key>
-					<string>keyword.control.java</string>
+					<string>keyword.control.java</string><!-- <string>keyword.conditional.java</string> -->
 				</dict>
 				<dict>
 					<key>match</key>
@@ -934,6 +934,10 @@
 					<string>final</string>
 					<key>name</key>
 					<string>storage.modifier.java</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#annotations</string>
 				</dict>
 				<dict>
 					<key>include</key>

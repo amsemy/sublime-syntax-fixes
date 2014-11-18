@@ -559,7 +559,7 @@
 			<key>match</key>
 			<string>\b(delete|in|instanceof|new|typeof|with)\b</string>
 			<key>name</key>
-			<string>keyword.operator.js</string>
+			<string>keyword.operator.js</string><!-- <string>keyword.reserved.js</string> -->
 		</dict>
 		<dict>
 			<key>match</key>
@@ -647,7 +647,8 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(?&lt;=[=(:]|^|return|&amp;&amp;|\|\||!)\s*(/)(?![/*+{}?])</string>
+			<!-- <string>(?&lt;=[=(:]|^|return|&amp;&amp;|\|\||!)\s*(/)(?![/*+{}?])</string> -->
+			<string>(?&lt;=[=(:]|,|,\s|return|&amp;&amp;|\|\||!)\s*(/)(?![/*+{}?])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
